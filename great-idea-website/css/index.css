@@ -60,7 +60,163 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	position: absolute;
+	
 }
 
 /* Your code starts here! */
+
+ header nav a {
+color: grey;
+text-decoration: overline;
+margin: 25px;
+ }
+
+ .logo {
+	 position: absolute;
+	 left: 675px;
+	 top: 0px;
+	 height: 20px;
+ }
+ header h1 {
+	font-size: 60px;
+ }
+ .iod1 {
+	 position: absolute;
+	 left: 200px;
+	 top: 75px;
+ }
+ .iod2 {
+	position: absolute;
+	left: 280px;
+	top: 135px;
+}
+.iod3 {
+	position: absolute;
+	left: 225px;
+	top: 190px;
+}
+.circle {
+	position: absolute;
+	left: 500px;
+	top: 40px;
+	height: 300px;
+}
+
+button {
+	position: absolute;
+	top: 260px;
+	left: 265px;
+}
+
+footer{
+	position: absolute;
+	bottom: 150px;
+}
+
+.feats{
+	top: 375px;
+	left: 25px;
+}
+
+.about{
+	top: 375px;
+	left: 500px;
+}
+
+.c1 {
+	position: absolute;
+	left: 25px;
+	top: 400px;
+	width: 375px;
+}
+
+.c2 {
+	position: absolute;
+	left: 500px;
+	top: 400px;
+	width: 375px;
+}
+
+.middle-img {
+	position: absolute;
+	top: 475px;
+	left: 25px;
+	height: 175px;
+}
+
+.services {
+	position: absolute;
+	top: 700px;
+	left: 25px;
+}
+
+.c3 {
+	position: absolute;
+	top: 725px;
+	width: 250px;
+	left: 25px;
+}
+
+.product {
+	position: absolute;
+	top: 700px;
+	left: 350px;
+}
+
+.c4 {
+	position: absolute;
+	top: 725px;
+	left: 350px;
+	width: 250px;
+}
+
+.vision {
+	position: absolute;
+	top: 700px;
+	left: 650px;
+}
+
+.c5 {
+	position: absolute;
+	top: 725px;
+	left: 650px;
+	width: 250px;
+}
+
+footer {
+	position: absolute;
+	bottom: 10px;
+	left: 425px;
+}
+
+.contact{
+	position: absolute;
+	bottom: 110px;
+	left: 25px;
+}
+
+.add {
+	position: absolute;
+	bottom: 100px;
+	left: 25px;
+}
+
+.loc {
+	position: absolute;
+	bottom: 85px;
+	left: 27px;
+}
+
+.num {
+	position: absolute;
+	bottom: 60px;
+	left: 25px;
+}
+
+.email {
+	position: absolute;
+	bottom: 35px;
+	left: 25px;
+}
