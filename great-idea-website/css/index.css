@@ -22,6 +22,8 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	margin-left: auto;
+	margin-right: auto;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -66,12 +68,34 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+@keyframes stretch{
+	0%   {color: red;}
+	10%  {color:black;}
+	20%  {color:white;}
+	25%  {color: yellow;}
+	35%  {color:rosybrown;}
+	45%  {color:red;}
+	50%  {color: blue;}
+	60%  {color:yellow;}
+	70%  {color:teal;}
+	80%  {color:white;}
+	90%  {color:black;}
+	100% {color: green;}
+  }
 
  header nav a {
 color: grey;
 text-decoration: overline;
 margin: 25px;
+background-color: black;
  }
+
+header nav a:hover {
+
+animation-name: stretch;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+}
 
  .logo {
 	 position: absolute;
@@ -216,6 +240,7 @@ footer {
 }
 
 .email {
+	text-align: center;
 	position: absolute;
 	bottom: 35px;
 	left: 25px;
@@ -230,6 +255,7 @@ footer {
 }
 
 .line2 {
+	
 	position: absolute;
 	background: transparent;
 	top: 650px;
